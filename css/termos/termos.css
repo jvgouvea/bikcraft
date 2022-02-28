@@ -1,0 +1,32 @@
+.titulo-bg{
+  background-color: var(--cor-11);
+}
+
+.titulo-container, .termos-conteudo{
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.termos-conteudo h2{
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.termos-conteudo h2:not(:first-child){
+  margin-top: 40px;
+}
+
+.termos-conteudo p+p{
+  margin-top: 30px;
+}
+
+.termos-conteudo p{
+  max-width: 80ch;
+}
