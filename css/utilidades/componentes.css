@@ -12,8 +12,22 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
+.botao-cinza{
+  padding: 16px 32px;
+  display: inline-block;
+  background: var(--cor-10);
+  border-radius: 4px;
+  text-align: center;
+  color: var(--cor-p0);
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.botao-cinza:hover{
+  background-color: var(--cor-9);
+}
+
 @media (max-width: 800px) {
-  .botao {
+  .botao, .botao-cinza {
     font-size: 1rem;
     padding: 12px 16px;
   }
