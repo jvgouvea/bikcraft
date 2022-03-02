@@ -89,3 +89,9 @@
     padding-left: 8px;
   }
 }
+
+@media (max-width: 500px) {
+.card-conteudo {
+  padding: 20px;
+}
+}
