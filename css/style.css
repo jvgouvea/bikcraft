@@ -1,6 +1,6 @@
 @import "global/global.css";
 @import "global/header.css";
-@import "home/footer.css";
+@import "global/footer.css";
 
 /* Utilidades */
 @import "utilidades/componentes.css";
@@ -24,3 +24,7 @@
 /* Seguros */
 @import "seguros/vantagens.css";
 @import "seguros/perguntas.css";
+
+/* Contato */
+@import "contato/formulario.css";
+@import "contato/lojas.css";

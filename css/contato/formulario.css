@@ -1,0 +1,132 @@
+.formulario-bg {
+  background: linear-gradient(var(--cor-11) 50%, var(--cor-1) 0%);
+}
+
+.formulario-container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.formulario-container h1 {
+  margin-bottom: 80px;
+}
+
+.formulario-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  box-shadow: 2px 3px var(--cor-1);
+}
+
+.formulario-contato {
+  padding: 60px 0px 60px 80px;
+  background-color: var(--cor-12);
+}
+
+.formulario-contato h2 {
+  margin-bottom: 60px;
+  margin-left: -20px;
+}
+
+.formulario-contato li:nth-child(3),
+li:nth-child(5) {
+  margin-bottom: 30px;
+}
+
+.formulario-endereco li {
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.detalhe::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url(/img/icones/local.svg);
+  background-repeat: no-repeat;
+  left: -25px;
+}
+
+.d-2::before {
+  background-image: url(/img/icones/email.svg);
+}
+
+.d-3::before {
+  background-image: url(/img/icones/telefone.svg);
+}
+
+.formulario-redes {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 60px 60px 60px 60px;
+  background-color: var(--cor-0);
+}
+
+.form input,
+textarea {
+  padding: 20px;
+  background-color: var(--cor-1);
+  border: 1px solid var(--cor-2);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="tel"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background-color: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.form label {
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.form input,
+textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.form .span2 {
+  grid-column: span 2;
+}
+
+@media (max-width: 800px) {
+  .formulario-grid {
+    grid-template-columns: 1fr;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .formulario-contato {
+    padding: 30px 50px;
+  }
+  .form {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+  .form .span2 {
+    grid-column: 1;
+  }
+}
