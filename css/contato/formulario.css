@@ -33,7 +33,7 @@
   margin-left: -20px;
 }
 
-.formulario-contato li:nth-child(3),
+.formulario-contato li:nth-child(3), .formulario-contato 
 li:nth-child(5) {
   margin-bottom: 30px;
 }

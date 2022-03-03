@@ -20,6 +20,8 @@
 /* Bicicletas*/
 @import "bicicletas/bicicletas-lista.css";
 @import "bicicletas/nossas-bicicletas.css";
+@import "bicicletas/nimbus.css";
+@import "bicicletas/pedale.css";
 
 /* Seguros */
 @import "seguros/vantagens.css";

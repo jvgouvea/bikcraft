@@ -1,0 +1,156 @@
+.nimbus-bg{
+  background-color: var(--cor-11);
+}
+
+.nimbus-container{
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.nimbus-container h1{
+  margin-bottom: 30px;
+}
+
+.nimbus-grid{
+  display: grid;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bicicleta-grid{
+  display: grid;
+  align-items: flex-start;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.bicicleta-grid img:nth-child(1){
+  grid-column: 1/-1;
+}
+
+@media (max-width:1000px){
+  .bicicleta-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:800px){
+  .bicicleta-grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+
+.nimbus-conteudo p{
+  margin-bottom: 30px;
+}
+
+.nimbus-conteudo h2{
+  margin-top: 40px;
+}
+
+.grid-botao{
+  display: grid;
+  align-items: center;
+  gap: 8px 10px ;
+  grid-template-columns: max-content max-content;
+  margin-bottom: 30px;
+}
+
+.grid-botao a{
+  grid-row: 1/-3;
+}
+
+.grid-botao span{
+  background-color: var(--cor-12);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px;
+  width: max-content;
+}
+
+.grid-botao span::before{
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url(/img/icones/entrega.svg);
+}
+
+.grid-botao span:nth-child(3):before{
+  background-image: url(/img/icones/estoque.svg);
+}
+
+.informacoes-grid{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-12);
+  padding: 40px 20px 20px 40px;
+  gap: 20px;
+}
+
+.informacoes-grid li h3{
+  margin: 8px 0px;
+}
+
+.informacoes-grid li img{
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width:900px){
+  .informacoes-grid{
+    padding: 20px;
+  }
+}
+
+@media (max-width:800px){
+  .nimbus-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:380px){
+  .informacoes-grid{
+    grid-template-columns: 1fr;
+  }
+  
+  .bicicleta-grid{
+    grid-template-columns: 1fr;
+    grid-row: 2;
+  }
+}
+
+.ficha h2{
+  margin-bottom: 10px;
+}
+
+.grid-ficha{
+  background-color: var(--cor-12);
+  padding: 20px 40px 20px 40px;
+}
+
+.grid-ficha li{
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0px;
+}
+
+.grid-ficha li+li{
+  border-top: 1px solid var(--cor-11);
+}
+
+.grid-ficha li{
+  padding: 4px 0px;
+}
