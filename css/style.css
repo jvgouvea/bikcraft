@@ -27,6 +27,9 @@
 @import "seguros/vantagens.css";
 @import "seguros/perguntas.css";
 
+/* Orçamento */
+@import "orcamento/orcamento.css";
+
 /* Contato */
 @import "contato/formulario.css";
 @import "contato/lojas.css";
