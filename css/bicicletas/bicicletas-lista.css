@@ -36,6 +36,12 @@
   -webkit-overflow-scrolling: touch;
 }
 
+@media (min-width:1200px){
+.bicicletas-lista-1200 h2 {
+  padding-left: 0px;
+}
+}
+
 .bicicletas-lista li {
   flex: 1;
   min-width: 280px;
