@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft - Bicicletas Elétricas</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
+  <link rel="preload" href="/css/style.css" as="style">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +36,10 @@
         <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="botao" href="bicicletas.html">ESCOLHA A SUA</a>
       </div>
-      <div><img src="img/fotos/introducao.jpg" alt="Bicicleta elétrica preta"></div>
+      <picture>
+        <source media="(max-width: 800px)" srcset="img/bicicletas/nimbus.jpg"> 
+        <img src="img/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
+      </picture>
     </div>
   </main>
 
@@ -202,4 +206,5 @@
     </div>
   </footer>
 </body>
+
 </html>
