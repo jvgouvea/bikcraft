@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orçamento | Bikcraft</title>
-  <meta name="description" content="Termos e Condições da Bikcraft">
+  <meta name="description" content="Orçamento da Bikcraft">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,16 +35,73 @@
       <form class="form-orcamento orcamento-formulario" action="/">
         <div class="formulario-radio">
           <h2 class="font-1-xs cor-5">BIKCRAFT OU SEGURO?</h2>
+
+          <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+          <label for="bikcraft">Bikcraft</label>
+
+          <input type="radio" name="tipo" value="seguro" id="seguro">
+          <label for="seguro">Seguro</label>
+
+          <div class="orcamento-conteudo" id="orcamento-bikcraft">
+            <h2 class="font-1-xs cor-5">ESCOLHA A SUA</h2>
+
+            <input type="radio" name="produto" value="nimbus" id="nimbus">
+            <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
+            <div class="orcamento-detalhes">
+              <ul class="font-1-xs cor-8">
+                <li><img src="img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+                <li><img src="img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                <li><img src="img/icones/velocidade.svg" alt="">50 km/h</li>
+                <li><img src="img/icones/rastreador.svg" alt="">Rastreador</li>
+              </ul>
+              <img src="img/bicicletas/nimbus.jpg" alt="Bicicleta Nimbus">
+            </div>
+
+            <input type="radio" name="produto" value="magic" id="magic">
+            <label for="magic">Magic Might <span>R$ 2499</span></label>
+            <div class="orcamento-detalhes">
+              <ul class="font-1-xs cor-8">
+                <li><img src="img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+                <li><img src="img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                <li><img src="img/icones/velocidade.svg" alt="">45 km/h</li>
+                <li><img src="img/icones/rastreador.svg" alt="">Rastreador</li>
+              </ul>
+              <img src="img/bicicletas/magic.jpg" alt="Bicicleta Magic">
+            </div>
+
+            <input type="radio" name="produto" value="nebula" id="nebula">
+            <label for="nebula">Nebula Cosmic <span>R$ 3999</span></label>
+            <div class="orcamento-detalhes">
+              <ul class="font-1-xs cor-8">
+                <li><img src="img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+                <li><img src="img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                <li><img src="img/icones/velocidade.svg" alt="">40 km/h</li>
+                <li><img src="img/icones/rastreador.svg" alt="">Rastreador</li>
+              </ul>
+              <img src="img/bicicletas/nebula.jpg" alt="Bicicleta Nebula">
+            </div>
+          </div>
+
+          <div class="orcamento-conteudo" id="orcamento-seguro">
+            <h2 class="font-1-xs cor-5">ESCOLHA O PLANO</h2>
+
+            <input type="radio" name="produto" value="prata" id="prata">
+            <label for="prata">Prata <span>R$ 199</span></label>
+
+            <input type="radio" name="produto" value="ouro" id="ouro">
+            <label for="ouro">Ouro <span>R$ 299</span></label>
+          </div>
         </div>
+
         <div class="formulario-dadosPessoais">
           <h2 class="titulo-dados font-1-xs cor-9">DADOS PESSOAIS</h2>
           <div>
-              <label for="nome">Nome</label>
-              <input type="text" id="nome" name="nome" required>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
           </div>
           <div>
-              <label for="sobrenome">Sobrenome</label>
-              <input type="text" id="sobrenome" name="sobrenome" required>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
           </div>
           <div class="span-2">
             <label for="cpf">CPF</label>
@@ -61,23 +118,23 @@
           </div>
           <div>
             <label for="numero">Número</label>
-            <input type="text" id="numero" name="numero"required>
+            <input type="text" id="numero" name="numero" required>
           </div>
           <div>
             <label for="logradouro">Logradouro</label>
-            <input type="text" id="logradouro" name="logradouro"required>
+            <input type="text" id="logradouro" name="logradouro" required>
           </div>
           <div>
             <label for="bairro">Bairro</label>
-            <input type="text" id="bairro" name="bairro"required>
+            <input type="text" id="bairro" name="bairro" required>
           </div>
           <div>
             <label for="cidade">Cidade</label>
-            <input type="text" id="cidade" name="cidade"required>
+            <input type="text" id="cidade" name="cidade" required>
           </div>
           <div>
             <label for="estado">Estado</label>
-            <input type="text" id="estado" name="estado"required>
+            <input type="text" id="estado" name="estado" required>
           </div>
           <button class="botao span2">SOLICITAR ORÇAMENTO</button>
         </div>
