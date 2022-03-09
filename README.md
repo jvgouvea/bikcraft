@@ -6,15 +6,16 @@ Projeto do curso de HTML e CSS da Origamid que simula uma loja de venda de bicic
 
 * [Link para acesso ao site](https://bikcraft-phi.vercel.app/) 
 
+## 📋 Imagens
+
+![git-bik](https://user-images.githubusercontent.com/86687541/157501993-89b2afc5-c0ae-42ad-bf0a-21304aa4edf7.png)
+
 ## 🛠️ Construído com
 
 * HTML
 * CSS
 * VS Code
 * Figma
-
-## 📋 Imagens
-
 
 ## ✒️ Autores
 
