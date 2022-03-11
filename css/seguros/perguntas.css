@@ -56,12 +56,15 @@
   transform: rotate(180deg);
 }
 
-.perguntas-conteudo dd.ativa {
+.js .perguntas-conteudo dd.ativa {
   display: block;
 }
 
-.perguntas-conteudo dd {
+.js .perguntas-conteudo dd{
   display: none;
+}
+
+.perguntas-conteudo dd {
   margin-bottom: 20px;
   max-width: 80ch;
   padding-left: 20px;
