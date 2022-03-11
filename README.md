@@ -14,6 +14,7 @@ Projeto do curso de HTML e CSS da Origamid que simula uma loja de venda de bicic
 
 * HTML
 * CSS
+* JavaScript
 * VS Code
 * Figma
 
